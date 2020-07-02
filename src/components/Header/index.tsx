@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import { Container } from './styles'
-
 import Switch from 'react-switch';
+import { ThemeContext } from 'styled-components';
 
 const Header: React.FC = () => {
+
+  const { colors } = useContext(ThemeContext);
+
   return (
     <Container>
       <span>Theme Switcher</span>
@@ -17,8 +20,8 @@ const Header: React.FC = () => {
         width={40}
         height={10}
         handleDiameter={20}
-        offColor="#0F1020"
-        onColor="#7353BA"
+        offColor={colors.primary}
+        onColor={colors.secondary}
       />
     </Container>
   );

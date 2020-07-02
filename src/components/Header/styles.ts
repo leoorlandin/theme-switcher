@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
   padding: 32px;
-  background: #2F195F;
+  background: ${props => props.theme.colors.primary};
   color: #FFF;
 
-  text-align: center;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 
