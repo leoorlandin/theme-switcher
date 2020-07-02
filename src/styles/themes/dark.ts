@@ -7,7 +7,7 @@ export default {
     secondary: '#7353ba',
 
     backgound: '#0f1020',
-    text: '#CCC',
+    text: '#FFF',
 
   }
 

@@ -3,7 +3,6 @@ import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 
 import { Container } from './styles'
-import { title } from 'process';
 
 
 
